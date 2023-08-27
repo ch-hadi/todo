@@ -5,12 +5,11 @@ import Sidebar from './components/Sidebar/Sidebar';
 // import SignInSide from './components/SignIn';
 function App() {
   return (
-    <div>
-      <Navbar/>
-     <div className='app'>
-    
-      <Home/>
-     </div>
+    <div style={{ width: '100%', height: '100%' }}>
+      <Navbar />
+      <div className='app'>
+        <Home />
+      </div>
     </div>
   );
 }
